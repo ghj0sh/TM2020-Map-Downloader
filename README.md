@@ -56,6 +56,7 @@ STEP 6: Look at how a map is downloaded on the exchange (look at how the map dow
 
 STEP 7: Paste that into line 54 in replacement of https://trackmania.exchange/maps/download (Example for TMNF: https://tmnf.exchange/trackgbx)
 
+NOTE: You might have to change everything around for it to work properly with the exchange you want it to work with.  Sometimes its not a simple copy/paste type of deal.  Read over the API docs and how they work.
 # CREDIT
 
 Shineeeeeuh - Making the code (https://github.com/Shineeeeeuh/Trackmania-Map-Downloader)
