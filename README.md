@@ -15,6 +15,8 @@ json
 If you dont know how to, go into cmd and type "pip install (whatever)" for all 3.
 This shouldn't be an issue, though.
 
+The EXE does NOT work with Trackmania-Exchange.  USE THE PYTHON SCRIPT!
+
 # How to configure it
 
 When you run the program once using "python download.py", it'll create a .json file in the folder that you're running it in.
