@@ -40,4 +40,12 @@ Im not sure if DirectoryPath works since it just downloads to my downloads folde
 # CREDIT
 
 Shineeeeeuh - Making the code (https://github.com/Shineeeeeuh/Trackmania-Map-Downloader)
-Me - Editing it to make it work with Trackmania Exchange
+
+Me - Editing it to make it work with Trackmania Exchange (not hard)
+
+# TO-DO
+- fix json file
+
+- maybe just remove json alltogether
+
+- make tutorial on how to make this work with other TMX sites
