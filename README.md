@@ -37,6 +37,25 @@ If it does that, copy and paste this into the .json file:
 ```
 
 Im not sure if DirectoryPath works since it just downloads to my downloads folder anyways.  Might fix it later
+
+# How to Change the TMX Exchange
+
+Did you just figure out that TM2020 requires Standard Access to play the game?  Well, so did I, which is why Im here to tell you how to change the site so you download from a different exchange.
+
+STEP 1: Choose a trackmania exchange and make a note of the link
+
+STEP 2: Go to https://api2.mania.exchange and go to the corresponding exchange
+
+STEP 3: Copy the API stuff for searching a track
+
+STEP 4: Paste it into your link.  Should look something like this, for example: https://tmnf.exchange/api/tracks?limit=100
+
+STEP 5: Paste the link into line 27 in replacement of https://trackmania.exchange/mapsearch2/search?api=on&limit=100
+
+STEP 6: Look at how a map is downloaded on the exchange (look at how the map download link is formatted).
+
+STEP 7: Paste that into line 54 in replacement of https://trackmania.exchange/maps/download (Example for TMNF: https://tmnf.exchange/trackgbx)
+
 # CREDIT
 
 Shineeeeeuh - Making the code (https://github.com/Shineeeeeuh/Trackmania-Map-Downloader)
