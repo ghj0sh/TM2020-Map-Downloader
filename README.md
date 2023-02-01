@@ -1,21 +1,41 @@
-# Trackmania-Map-Downloader
-A python script that has been converted into an executable file to download a list of Trackmania maps.
+# TM2020-Map-Downloader
+A python script that lets you download a list of Trackmania maps.
 
 # How to download it ?
 
-For download it, you need to go to the "Release" section on "Code" category and you can now download it !
+Download the source code in the top right (green box that says code)
 
-# How to config it
+Make sure you have python.  If you dont, download it and make sure to add it to your PATH
 
-The file for the config, it's a JSON file, and if you understand JSON you can config it :)
+Dependencies:
+wget
+requests
+json
 
-Please for the directory path replace "\" by "/" !
+If you dont know how to, go into cmd and type "pip install (whatever)" for all 3.
+This shouldn't be an issue, though.
 
-# I can use this code ?
+# How to configure it
 
-Yes, you can use this code but under one condition:
+When you run the program once using "python download.py", it'll create a .json file in the folder that you're running it in.
 
-- You have to mention that the original code came from me.
-- Please, don't sell my code/my creation.
+I'm not sure what happened to the original person's code, but for some reason it wont add the necessary stuff to the .json
 
-Enjoy :p
+If it does that, copy and paste this into the .json file:
+
+```
+{
+	"TrackInformation": {
+		"Author": "",
+		"Name": "",
+		"Tags": ""
+	},
+	"DirectoryPath": ""
+}
+```
+
+Im not sure if DirectoryPath works since it just downloads to my downloads folder anyways.  Might fix it later
+# CREDIT
+
+Shineeeeeuh - Making the code (https://github.com/Shineeeeeuh/Trackmania-Map-Downloader)
+Me - Editing it to make it work with Trackmania Exchange
